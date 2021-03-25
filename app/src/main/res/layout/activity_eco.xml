@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    tools:context=".EcoActivity">
+
+    <ImageView
+        android:id="@+id/mainImage"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        app:layout_constraintBottom_toTopOf="@id/mainText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mother_earth_day" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:fontFamily="@font/raleway"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_weight="400"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/gray"
+        app:layout_constraintTop_toBottomOf="@id/mainImage"
+        app:layout_constraintBottom_toTopOf="@id/ecoList"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Шукай в комірках нові еко-звички і приходь за їх вивченням" />
+
+    <ListView
+        android:id="@+id/ecoList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/mainBtn"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainText" />
+
+    <android.widget.Button
+        android:id="@+id/mainBtn"
+        android:onClick="goToMain"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="На головну"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ecoList"
+        style="@style/MainBtnStyle"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pic_titles">
+        <item>Естетика Пікассо</item>
+        <item>Естетика Клімта</item>
+        <item>До і після притулку</item>
+        <item>Рекієм за їжею</item>
+        <item>Естетика Малевича</item>
+        <item>Естетика Кало</item>
+        <item>Естетика Босха</item>
+        <item>Естетика Магрітта</item>
+        <item>Естетика ІзоІзоляція</item>
+        <item>Дивовижні місця України</item>
+        <item>Естетика Далі</item>
+        <item>Естетика Примаченко</item>
+        <item>Мої маленькі кроки</item>
+    </string-array>
+
+    <string-array name="pic_name">
+        <item>Пабло Пікассо</item>
+        <item>Густав Клімт</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Казимир Малевич</item>
+        <item>Фріда Кало</item>
+        <item>Ерун Босх</item>
+        <item>Рене Магрітт</item>
+        <item>-</item>
+        <item>-</item>
+        <item>Сальвадор Далі</item>
+        <item>Марія Примаченко</item>
+        <item>-</item>
+    </string-array>
+
+    <string-array name="pic_date">
+        <item></item>
+        <item>2021-04-05</item>
+        <item>2021-04-07</item>
+        <item>2021-04-08</item>
+        <item>2021-04-11</item>
+        <item>2021-04-15</item>
+        <item>2021-04-18</item>
+        <item>2021-04-21</item>
+        <item>2021-04-24</item>
+        <item>2021-04-25</item>
+        <item>2021-04-27</item>
+        <item>2021-04-28</item>
+        <item>2021-04-30</item>
+    </string-array>
+</resources>

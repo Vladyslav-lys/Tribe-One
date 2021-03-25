@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EcoListItemActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+
+                <View
+                    android:layout_width="400dp"
+                    android:layout_height="350dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/eco_list_item_back" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/mainImage"
+                        android:layout_width="240dp"
+                        android:layout_height="240dp"
+                        app:srcCompat="@drawable/shopping_bag" />
+
+                    <TextView
+                        android:id="@+id/titleText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:textAlignment="center"
+                        android:text="Поліетиленові злодії"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/raleway"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textFontWeight="800"
+                        android:gravity="center_horizontal" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/problemText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="2sp"
+                android:gravity="top"
+                android:fontFamily="@font/raleway"
+                android:textStyle="bold"
+                android:text="Проблема: Щорічно в океан потрапляє близько 8 мільйонів тон пластику і якщо нічого не зробити, то до 2050 року в океані буде більше пластика, ніж риби. Ти можеш стати супер героєм і врятувати планету." />
+
+            <TextView
+                android:id="@+id/solutionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="2sp"
+                android:gravity="top"
+                android:fontFamily="@font/raleway"
+                android:textStyle="bold"
+                android:text="Вирішення: Еко-мішечки з жорсткого фатину або іншого щільного матеріалу, які є чудовою альтернативою поліетиленовим. Можна використовувати для фруктів, овочів та інших продуктів. Вони багаторазові у використанні." />
+
+            <TextView
+                android:id="@+id/recText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="2sp"
+                android:gravity="top"
+                android:fontFamily="@font/raleway"
+                android:textStyle="bold"
+                android:text="Рекомендації: 1. Прати мішечки необхідно при температурі 30 градусів;
+2. Не варто перевантажувати, максимальна вага – 3 кг;
+3. Цінник вагових продуктів найкраще кріпити на шнурок;
+3. Після покупки овочі та фрукти можна зберігати в мішечку в холодильнику, вони дихатимуть і не зіпсуються." />
+
+            <android.widget.Button
+                android:id="@+id/backBtn"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="getBack"
+                android:text="Назад"
+                style="@style/MainBtnStyle" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

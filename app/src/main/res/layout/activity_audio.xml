@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AudioActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/hatImageAudio"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_gravity="top|center_horizontal"
+            android:scaleType="centerCrop"
+            android:maxHeight="430dp"
+            android:minHeight="220dp"
+            app:srcCompat="@drawable/hat" />
+
+        <android.widget.Button
+            android:id="@+id/mainBtn"
+            android:onClick="goToMain"
+            android:background="@drawable/main_btn_one"
+            android:text="На головну"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            style="@style/MainBtnStyle" />
+
+        <View
+            android:id="@+id/mainBackAudio"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="100dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/main_back" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/executorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="Кіно" />
+
+            <TextView
+                android:id="@+id/nameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="Антитела" />
+
+            <ImageButton
+                android:id="@+id/playBtn"
+                android:onClick="play"
+                android:layout_marginTop="25dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/media_play"
+                style="@style/MediaBtnStyle"/>
+
+            <ImageButton
+                android:id="@+id/pauseBtn"
+                android:onClick="pause"
+                android:layout_marginTop="25dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/media_pause"
+                style="@style/MediaBtnStyle"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="music_executor">
+        <item>Hardkiss</item>
+        <item>MamaRika</item>
+        <item>Скрябін</item>
+        <item>Chuck Berry</item>
+        <item>Dick Dale &amp; His Del Tones</item>
+        <item>Kool &amp; The Gang</item>
+        <item>Kozak System</item>
+        <item>Один в каное</item>
+        <item>Океан Ельзи</item>
+        <item>Антитіла</item>
+        <item>MELOVIN</item>
+        <item>600-річна пісня Босха</item>
+        <item>KARNA</item>
+        <item>KHAYAT</item>
+        <item>Один в каноэ</item>
+        <item>Без обмежень</item>
+        <item>Океан Ельзи</item>
+        <item>Еней</item>
+        <item>NAVKA</item>
+        <item>KAZKA</item>
+    </string-array>
+
+    <string-array name="music_name">
+        <item>Гора</item>
+        <item>Prolisky</item>
+        <item>Старі фотографії</item>
+        <item>You Never Can Tell</item>
+        <item>Misirlou</item>
+        <item>Jungle Boogie</item>
+        <item>На маленькій планеті</item>
+        <item>У мене немає дому</item>
+        <item>Сонце</item>
+        <item>TDME</item>
+        <item>Вітрила</item>
+        <item>-</item>
+        <item>Моя мила</item>
+        <item>Osoka</item>
+        <item>Пообіцяй мені</item>
+        <item>Най би вже весна</item>
+        <item>Човен</item>
+        <item>Біля тополі</item>
+        <item>Татанці</item>
+        <item>Палала</item>
+    </string-array>
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="eco_images">
+        <item>@drawable/shopping_bag</item>
+        <item>@drawable/rabbit</item>
+        <item>@drawable/tea_bag</item>
+        <item>@drawable/aluminium_paper</item>
+        <item>@drawable/recycle_bag</item>
+        <item>@drawable/sponge</item>
+        <item>@drawable/reusable</item>
+        <item>@drawable/hydroponic_gardening</item>
+        <item>@drawable/recycle_bin</item>
+        <item>@drawable/consciousness</item>
+    </integer-array>
+
+    <integer-array name="pic_main_arts">
+        <item>@drawable/main_picasso</item>
+        <item>@drawable/main_klimt</item>
+        <item>@drawable/main_dogs</item>
+        <item>@drawable/main_plastic_food</item>
+        <item>@drawable/main_malevich</item>
+        <item>@drawable/main_kahlo</item>
+        <item>@drawable/main_bosch</item>
+        <item>@drawable/main_magritt</item>
+        <item>@drawable/main_izolzolathion</item>
+        <item>@drawable/main_ukraine</item>
+        <item>@drawable/main_dali</item>
+        <item>@drawable/main_primachenko</item>
+    </integer-array>
+
+    <integer-array name="pic_arrays_of_artists">
+        <item>@array/pic_picasso</item>
+        <item>@array/pic_klimt</item>
+        <item>@array/pic_dogs</item>
+        <item>@array/pic_foods</item>
+        <item>@array/pic_malevich</item>
+        <item>@array/pic_kahlo</item>
+        <item>@array/pic_bosch</item>
+        <item>@array/pic_magritt</item>
+        <item>@array/pic_izoizolathion</item>
+        <item>@array/pic_ukraine</item>
+        <item>@array/pic_dali</item>
+        <item>@array/pic_primachenko</item>
+        <item>@array/pic_little_steps</item>
+    </integer-array>
+
+    <integer-array name="pic_picasso">
+        <item>@drawable/picasso1</item>
+        <item>@drawable/picasso2</item>
+        <item>@drawable/picasso3</item>
+        <item>@drawable/picasso4</item>
+        <item>@drawable/picasso5</item>
+        <item>@drawable/picasso6</item>
+        <item>@drawable/picasso7</item>
+        <item>@drawable/picasso8</item>
+        <item>@drawable/picasso9</item>
+    </integer-array>
+
+    <integer-array name="pic_klimt">
+        <item>@drawable/klimt1</item>
+        <item>@drawable/klimt2</item>
+        <item>@drawable/klimt3</item>
+        <item>@drawable/klimt4</item>
+        <item>@drawable/klimt6</item>
+        <item>@drawable/klimt7</item>
+        <item>@drawable/klimt8</item>
+        <item>@drawable/klimt9</item>
+    </integer-array>
+
+    <integer-array name="pic_dogs">
+        <item>@drawable/dog1</item>
+        <item>@drawable/dog2</item>
+        <item>@drawable/dog3</item>
+        <item>@drawable/dog4</item>
+        <item>@drawable/dog5</item>
+        <item>@drawable/dog6</item>
+        <item>@drawable/dog7</item>
+        <item>@drawable/dog8</item>
+        <item>@drawable/dog9</item>
+    </integer-array>
+
+    <integer-array name="pic_foods">
+        <item>@drawable/food1</item>
+        <item>@drawable/food2</item>
+        <item>@drawable/food3</item>
+        <item>@drawable/food4</item>
+        <item>@drawable/food5</item>
+        <item>@drawable/food6</item>
+        <item>@drawable/food7</item>
+        <item>@drawable/food8</item>
+    </integer-array>
+
+    <integer-array name="pic_malevich">
+        <item>@drawable/malevich1</item>
+        <item>@drawable/malevich2</item>
+        <item>@drawable/malevich3</item>
+        <item>@drawable/malevich4</item>
+        <item>@drawable/malevich5</item>
+        <item>@drawable/malevich6</item>
+        <item>@drawable/malevich7</item>
+        <item>@drawable/malevich8</item>
+        <item>@drawable/malevich9</item>
+    </integer-array>
+
+    <integer-array name="pic_kahlo">
+        <item>@drawable/kahlo1</item>
+        <item>@drawable/kahlo2</item>
+        <item>@drawable/kahlo3</item>
+        <item>@drawable/kahlo4</item>
+        <item>@drawable/kahlo5</item>
+        <item>@drawable/kahlo6</item>
+        <item>@drawable/kahlo7</item>
+        <item>@drawable/kahlo8</item>
+        <item>@drawable/kahlo9</item>
+    </integer-array>
+
+    <integer-array name="pic_bosch">
+        <item>@drawable/bosch1</item>
+        <item>@drawable/bosch2</item>
+        <item>@drawable/bosch3</item>
+        <item>@drawable/bosch4</item>
+        <item>@drawable/bosch5</item>
+        <item>@drawable/bosch6</item>
+        <item>@drawable/bosch7</item>
+        <item>@drawable/bosch8</item>
+        <item>@drawable/bosch9</item>
+    </integer-array>
+
+    <integer-array name="pic_magritt">
+        <item>@drawable/magritt1</item>
+        <item>@drawable/magritt2</item>
+        <item>@drawable/magritt3</item>
+        <item>@drawable/magritt4</item>
+        <item>@drawable/magritt5</item>
+        <item>@drawable/magritt6</item>
+        <item>@drawable/magritt7</item>
+        <item>@drawable/magritt8</item>
+        <item>@drawable/magritt9</item>
+    </integer-array>
+
+    <integer-array name="pic_izoizolathion">
+        <item>@drawable/izoizolathion1</item>
+        <item>@drawable/izoizolathion2</item>
+        <item>@drawable/izoizolathion3</item>
+        <item>@drawable/izoizolathion4</item>
+        <item>@drawable/izoizolathion5</item>
+        <item>@drawable/izoizolathion6</item>
+        <item>@drawable/izoizolathion7</item>
+        <item>@drawable/izoizolathion8</item>
+        <item>@drawable/izoizolathion9</item>
+        <item>@drawable/izoizolathion10</item>
+    </integer-array>
+
+    <integer-array name="pic_ukraine">
+        <item>@drawable/ukraine1</item>
+        <item>@drawable/ukraine2</item>
+        <item>@drawable/ukraine3</item>
+        <item>@drawable/ukraine4</item>
+        <item>@drawable/ukraine5</item>
+        <item>@drawable/ukraine6</item>
+        <item>@drawable/ukraine7</item>
+        <item>@drawable/ukraine8</item>
+        <item>@drawable/ukraine9</item>
+    </integer-array>
+
+    <integer-array name="pic_dali">
+        <item>@drawable/dali1</item>
+        <item>@drawable/dali2</item>
+        <item>@drawable/dali3</item>
+        <item>@drawable/dali4</item>
+        <item>@drawable/dali5</item>
+        <item>@drawable/dali6</item>
+        <item>@drawable/dali7</item>
+        <item>@drawable/dali8</item>
+        <item>@drawable/dali9</item>
+    </integer-array>
+
+    <integer-array name="pic_primachenko">
+        <item>@drawable/primachenko1</item>
+        <item>@drawable/primachenko2</item>
+        <item>@drawable/primachenko3</item>
+        <item>@drawable/primachenko4</item>
+        <item>@drawable/primachenko5</item>
+        <item>@drawable/primachenko6</item>
+        <item>@drawable/primachenko7</item>
+        <item>@drawable/primachenko8</item>
+        <item>@drawable/primachenko9</item>
+    </integer-array>
+
+    <integer-array name="pic_little_steps">
+
+    </integer-array>
+</resources>
